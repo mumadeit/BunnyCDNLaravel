@@ -10,7 +10,6 @@
             <input class="custom-file-input" name="file" required type="file">
             <button type="submit">Upload</button>
         </form>
-
         <p>
             @if (session()->has('success'))
                 <p style="color: rgb(130, 130, 130)">{{ session()->get('success') }}</p>
