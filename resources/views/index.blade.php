@@ -8,7 +8,7 @@
             @csrf
             <label for="">Upload A Random File</label>
             <input class="custom-file-input" name="file" required type="file">
-            <button type="submit">Submit</button>
+            <button type="submit">Upload</button>
         </form>
 
         <p>
